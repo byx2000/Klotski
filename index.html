@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>华容道</title>
+		<link rel="shortcut icon" href="images/icon.ico"/>
+		<link href="style/style.css" rel="stylesheet">
+		<script src="scripts/table.js"></script>
+		<script src="scripts/element.js"></script>
+		<script src="scripts/Klotski.js"></script>
+		<script src="scripts/View.js"></script>
+		<script src="scripts/event.js"></script>
+		<script src="scripts/main.js"></script>
+	</head>
+
+	<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+		<img id="titleImg" class="moveFreely hide" src="images/title.png" alt="华容道游戏提示" title="游戏提示"/>
+		<p id="layoutName" class="moveFreely"></p>
+		<img id="nextLayout" 		class="moveFreely hide" src="images/next.png"  		alt="下一关" 	title="下一关"/>
+		<img id="previousLayout" 	class="moveFreely hide" src="images/previous.png"  	alt="上一关" 	title="上一关"/>
+		<img id="refresh" 			class="moveFreely hide" src="images/refresh.png"  	alt="重置布局"	title="重置布局"/>
+		
+		<div id="chessboard">
+			<div id="caocao" 		tabindex="0"></div>
+			<div id="zhangfei" 		tabindex="1"></div>
+			<div id="machao" 		tabindex="2"></div>
+			<div id="huangzhong" 	tabindex="3"></div>
+			<div id="zhaoyun" 		tabindex="4"></div>
+			<div id="guanyu" 		tabindex="5"></div>
+			<div id="zu1" 			tabindex="6"></div>
+			<div id="zu2" 			tabindex="7"></div>
+			<div id="zu3" 			tabindex="8"></div>
+			<div id="zu4" 			tabindex="9"></div>
+			
+			<img id="up" 	src="images/up_arrow.png"		class="hide"/>
+			<img id="down" 	src="images/down_arrow.png"		class="hide"/>
+			<img id="left" 	src="images/left_arrow.png"		class="hide"/>
+			<img id="right" src="images/right_arrow.png"	class="hide"/>
+		</div>
+	</body>
+</html>

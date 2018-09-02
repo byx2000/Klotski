@@ -1,0 +1,1 @@
+Double click "index.html" to run the game.
